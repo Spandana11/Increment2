@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" 
+        android:background="#ffffff">
+
+        <TableLayout
+           
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:stretchColumns="1">
+<Button
+              
+                android:layout_width="wrap_content"
+                android:layout_height="40px"
+             android:text="Add Profile"
+         android:layout_gravity="right" 
+         android:textColor="#ffffff"
+         style="@android:style/Animation.Translucent"
+         android:background="@drawable/btt"/>
+
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+  
+                 >
+                
+                
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile :"            
+           android:paddingTop="5px"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+          />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+         
+            android:layout_height="wrap_content"
+           
+            />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:paddingBottom="10px">
+        
+                
+                   <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Message :"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:attr/textAppearanceMedium" 
+                    />
+
+                <EditText
+                    android:id="@+id/editText4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100px"
+                     android:maxLength="100"
+                    android:layout_weight="1"
+                    android:inputType="textMultiLine" />
+                
+                
+                
+            </TableRow>
+           
+  <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="40px"
+                android:text="Save Profile"
+                  android:textColor="#ffffff"
+         android:layout_gravity="right" 
+         style="@android:style/Animation.Translucent"
+         android:background="@drawable/btt"/>
+                
+                 
+        </TableLayout>
+        
+                
+                    
+
+    </ScrollView>
+ 

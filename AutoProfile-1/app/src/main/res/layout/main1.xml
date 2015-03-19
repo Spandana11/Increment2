@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+<ImageView
+	android:id="@+id/Thumbnail"
+	android:layout_width="40dp"
+	android:layout_height="60dp"
+	android:src="@drawable/customprofile"/>
+<TextView 
+android:layout_width="wrap_content" 
+android:layout_toRightOf="@+id/Thumbnail" 
+android:layout_below="@+id/ct"
+android:layout_height="wrap_content" 
+android:id="@+id/FileSize"
+android:paddingLeft="10px"
+android:text="Profile time-"
+android:textColor="#8D38C9"
+></TextView>
+<TextView 
+android:layout_toRightOf="@+id/Thumbnail" 
+android:text="sdfkjsji"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:id="@+id/ct"
+android:paddingLeft="10px"
+android:textSize="20dip"
+android:typeface="serif"
+android:textColor="#8b4513">  
+</TextView>
+<TextView
+android:layout_below="@+id/ct"
+android:layout_alignParentRight="true"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_marginRight="20dip"
+android:id="@+id/ctt"
+android:textColor="#8D38C9">
+</TextView>
+
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="10dip"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="150px"
+        android:layout_height="fill_parent"
+  
+    >
+
+        <EditText
+        android:id="@+id/pro"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+      	android:layout_weight ="1" 
+		android:inputType="textCapSentences|textMultiLine"
+		android:editable="false"
+		android:maxLength ="2000" 
+		android:cursorVisible="false"
+		android:clickable="false"
+		android:focusable="false"
+		android:textColor="#0000aa"
+       android:hint="Select any option to know about the Application " >
+   
+    </EditText>
+        
+     
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+       <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+   
+    android:background="@drawable/btt" >
+        
+    <Button
+        android:id="@+id/ap"
+        android:layout_width="80px"
+        android:layout_height="fill_parent"
+        android:text="Add\nprofile"
+        android:background="@drawable/btt"
+        android:textColor="#ffffff"
+        android:layout_marginTop="5px" />
+
+    <Button
+        android:id="@+id/up"
+        android:layout_width="80px"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:background="@drawable/btt"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20px"/>
+        
+        
+
+    <Button
+        android:id="@+id/act"
+        android:layout_width="80px"
+        android:layout_height="wrap_content"
+        android:text="Activate"
+        android:background="@drawable/btt" 
+        android:textColor="#ffffff"
+        android:layout_marginTop="20px"/>
+
+    <Button
+        android:id="@+id/dct"
+        android:layout_width="80px"
+        android:layout_height="wrap_content"
+        android:text="De\nactivate" 
+        android:background="@drawable/btt"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20px"/>
+
+    <Button
+        android:id="@+id/dp"
+        android:layout_width="80px"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+       android:background="@drawable/btt" 
+       android:textColor="#ffffff"
+       android:layout_marginTop="20px"/>
+
+    <Button
+        android:id="@+id/dap"
+        android:layout_width="80px"
+        android:layout_height="wrap_content"
+        android:text="Delete All"
+        android:background="@drawable/btt"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20px"/>
+
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
